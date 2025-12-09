@@ -125,7 +125,6 @@ fn get_token(ch: Option<&char>, t: &mut Vec<Token>) -> Option<Token> {
 }
 
 pub fn tokenize<'a>(expr: &str, scope: &'a Scope) -> Result<TokenList, Error> {
-    dbg!(expr);
     let mut chars = expr.chars().peekable();
     let mut tokens = Vec::with_capacity(expr.len());
 

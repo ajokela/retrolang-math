@@ -1,14 +1,14 @@
 [package]
-name = "asciimath"
+name = "retrolang-math"
 edition = "2018"
-version = "0.8.8"
-authors = ["Gregory <gregory.mkv@gmail.com>"]
-description = "Mathematical expression parser and evaluator"
+version = "0.1.0"
+authors = ["Gregory <gregory.mkv@gmail.com>", "Alex Jokela"]
+description = "Mathematical expression parser and evaluator for RetroLang (based on asciimath by chmln)"
 keywords = ["math", "expression", "evaluation", "parser"]
 license = "MIT"
-documentation = "https://docs.rs/asciimath"
-homepage = "https://github.com/chmln/asciimath-rs"
-repository = "https://github.com/chmln/asciimath-rs.git"
+documentation = "https://docs.rs/retrolang-math"
+homepage = "https://github.com/ajokela/retrolang-math"
+repository = "https://github.com/ajokela/retrolang-math"
 readme = "README.md"
 categories = ["science", "parsing"]
 
